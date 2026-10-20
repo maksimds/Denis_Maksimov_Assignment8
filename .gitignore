@@ -23,6 +23,9 @@ score.json
 
 # Session memory database (may contain real conversation content)
 *.db
+*.db-wal
+*.db-shm
+*.db-journal
 
 # macOS / editor files
 .DS_Store
