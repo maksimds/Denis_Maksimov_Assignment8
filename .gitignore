@@ -1,0 +1,30 @@
+# Secrets: your Azure APIM key lives here, never commit it
+.env
+.env.*
+!.env.example
+
+# uv virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Gradio cache and flagged chats
+.gradio/
+flagged/
+
+# Files the agent writes while you test (delete a line to commit that file)
+ripasso.txt
+score.json
+
+# Session memory database (may contain real conversation content)
+*.db
+
+# macOS / editor files
+.DS_Store
+.vscode/
+.cursor/
